@@ -1,23 +1,30 @@
 body {
-  font-family: "Open Sans";
-  background-color: #6eceb2;
+  font-family: "Comic Sans MS";
+  background-color: #d9b3ff;
 }
 
 button {
-  font-family: "Open Sans";
-  background-color: #ece81a;
+  font-family: "Comic Sans MS";
+  background-color: #a64dff;
   border: none;
   color: #01426a;
   padding: 5px 10px 5px 10px;
 }
 
 h1 {
-  color: white;
+  color: #3d3d5c;
+  text-align: center;
+}
+
+h4 {
+  color: #3d3d5c;
   text-align: center;
 }
 
 #question {
-  font-size: 24px;
+  font-family: "Chalkduster";
+  color:#5c5c8a;
+  font-size: 26px;
   text-align: center;
 }
 
@@ -26,8 +33,14 @@ h1 {
 }
 
 #result {
+  font-family: "Comic Sans MS"
   margin-top: 10%;
   text-align: center;
-  color: white;
-  font-size: 18px;
+  color: #5c5c8a;
+  font-size: 30px;
+}
+
+#picture {
+  display: block;
+  margin: auto;
 }
